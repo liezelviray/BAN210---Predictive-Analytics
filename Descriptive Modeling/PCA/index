@@ -1,0 +1,3 @@
+Principal Components Coefficient plot displaysthe input variable coefficients for each of the principal component
+Principal Components Matrix displays scatter plots for all pairs of the selected principal components
+Output shows the criterion summary of the exported principal components
