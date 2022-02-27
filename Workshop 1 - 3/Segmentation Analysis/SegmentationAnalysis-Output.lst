@@ -1,0 +1,44 @@
+*------------------------------------------------------------*
+User:                u59397328
+Date:                February 04, 2022
+Time:                21:48:30
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+         Measurement    Frequency
+Role        Level         Count
+ 
+ID        NOMINAL           1
+INPUT     INTERVAL          6
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Importance
+ 
+                                         Number of    Number of
+Variable                                 Splitting    Surrogate
+  Name      Label                          Rules        Rules      Importance
+ 
+LocY        Region Latitude                  3            18         1.00000
+LocX        Region Longitude                 6            18         0.93413
+RegPop      Region Population                4            18         0.90704
+MedHHInc    Median Household Income          7            11         0.83085
+MeanHHSz    Average Household Size           3            17         0.81980
+RegDens     Region Density Percentile        9            11         0.81340
