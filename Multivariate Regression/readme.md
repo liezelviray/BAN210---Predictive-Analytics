@@ -18,6 +18,24 @@ MEDV - Median value of owner-occupied homes in $1000's<br />
 <br />
 <br />
 
-Used Boston.csv to apply Feature Selection for Multiariate Regression model using SAS Enterprise Miner to predict house prices.<br />
-<br />
-1. 
+Used Boston.csv to apply Feature Selection for Multivariate Regression model using SAS Enterprise Miner.<br />
+1. Use FILE IMPORT node to import Boston dataset
+2. In the Property tab of FILE IMPORT node, select input features ('VAR1', 'CHAS', 'RAD') by selecting "Yes" in Drop column and set 'MEDV' as Target variable 
+3. In DATA PARTITION node, split data to 50% Training, 40% Validation and 10% Test Set
+4. In REGRESSION node, select 'Linear Regression' as regression type, 'GLM' as input coding.
+5. Checked the results using 'Backward' ,'Forward' or 'Stepwise' as selection model<br /><br />
+
+
+RESULT:<br />
+1. Estimate Selection Plot shows the selected variables with their effect. The Plot using Backward selection models largely differs from the other 2 models. <br />
+2. Features Selected using the ff.: selection model:
+- Backward Selection
+Intercept, Age, black, dis, lstat, nox, pratio, rm, zn <br />
+- Forward Selection
+Intercept, Age, black, dis, lstat, nox, pratio, rm, zn <br />
+- Stepwise Selection
+Intercept, Age, black, dis, lstat, nox, pratio, rm, zn <br />
+3. MSE of Training Set for each selection model:<br />
+- Backward Selection = 21.48
+- Forward Selection = 21.48
+- Stepwise Selection = 21.48
