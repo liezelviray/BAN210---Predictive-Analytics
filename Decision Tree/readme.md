@@ -26,5 +26,9 @@ TEST SET( SSE is 1.84, ASE is 0.02 and Misclassification Rate is 0.03<br />
 - Event Classification Table seen in the Output is as follows: <br />
 TRAIN<br />
 FN (2), TN (39), FP (0), TP (18)<br />
-VALIDATE<br />
-FN (1), TN (37), FP (2), TP (19)
+VALIDATION<br />
+FN (1), TN (37), FP (2), TP (19)<br />
+- Key Metrics<br />
+Recall = TP / (TP+FN) , TRAIN (0.9), VALIDATION (0.95)<br />
+Precision = TP / (TP + FP), TRAIN (1), VALIDATION (0.90)<br />
+Accuracy = TP + TN/ Total , TRAIN (0.97), VALIDATION (0.95)
