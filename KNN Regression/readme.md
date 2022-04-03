@@ -32,7 +32,7 @@ MBR NODE
 - Train method used is "SCAN" wherein Number of Buckets property is not relevant. Scan method retrieves a earest neighbor by scanning naively through every observation in the dataset and calculating its distance to probe observation.
 - Set number of neighbors = 3
 
-RESULTS:
+RESULTS:<br /><br />
 Score Distribution Chart - plots proportions of events, non events, and other values on the ertical axis. The values on the horizontal axis represent the model score of a bin.<br />
 <br />
 Score Rankings Matrix - displays both train and validate statistics on the same axis.<br /><br />
