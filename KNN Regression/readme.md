@@ -33,9 +33,9 @@ MBR NODE
 - Set number of neighbors = 3
 
 RESULTS:
-Score Distribution Chart - plots proportions of events, non events, and other values on the ertical axis. The values on the horizontal axis represent the model score of a bin.
-Score Rankings Matrix - displays both train and validate statistics on the same axis.
-Fit Statistics (Train/ Validation/ Test):
+Score Distribution Chart - plots proportions of events, non events, and other values on the ertical axis. The values on the horizontal axis represent the model score of a bin.<br />
+Score Rankings Matrix - displays both train and validate statistics on the same axis.<br />
+Fit Statistics (Train/ Validation/ Test):<br />
 - MSE = 16.54 / 64.16 / 76.26
 - Max Absolute Error = 19.07 / 29.97 / 28.47
 - Final Prediction Error = 17.61
