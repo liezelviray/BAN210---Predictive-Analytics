@@ -27,6 +27,9 @@ Conducted PCA in HMEQ dataset using SAS Enterprise Miner to reduce dimension <br
 RESULTS:<br />
 Principal Components Coefficient plot <br />
 - PC1 : 'Value' and 'Mortdue' has the highest coefficient value <br />
+![image](https://user-images.githubusercontent.com/98596551/163026922-ed2c2348-7397-4b42-a612-66dfaacdb473.png)
+<br />
+
 - PC4 : 'Derog' has the highest coefficient value <br />
 Principal Components Matrix - scatter plots for all pairs of the selected principal components <br />
 
