@@ -1,3 +1,2 @@
-# BAN210---Predictive-Analytics
-A repository for excercises made for 210-Predictive Analytics course.
-Using SAS Enterprise Miner
+# BAN210-Predictive-Analytics
+A repository for excercises made for 210-Predictive Analytics course using SAS Enterprise Miner
