@@ -39,5 +39,5 @@ Leaf plot <b/>
 Leaf Statistics <b/>
 - highest distribution of leaes is between 4.8 to 7.2<b/>
 
-Statistics history on each iteration can be seen in the Iteration History <b/>
-Score ranking oerlay displays both train and validate statistics on the same axis. 
+Statistics history on each iteration can be seen in the Iteration History <b/><b/>
+Score rankings overlay displays both train and validate statistics on the same axis. 
