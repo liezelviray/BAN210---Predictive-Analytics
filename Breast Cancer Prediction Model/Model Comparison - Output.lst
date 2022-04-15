@@ -1,0 +1,226 @@
+*------------------------------------------------------------*
+User:                u59397328
+Date:                14 April 2022
+Time:                22:31:33
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+TARGET      BINARY           1
+ 
+ 
+ 
+ 
+ 
+                                                                                     BINNED_KS_
+                                                            _KS_PROB_                   PROB_
+Obs    TARGET    TARGETLABEL    _AUR_    _GINI_      KS       CUTOFF     _KS_BIN_      CUTOFF
+ 
+ 1     Class                    0.621     0.242    0.245      0.201        0.24         0.281
+ 
+ 
+ 
+ 
+ 
+                                                               _VKS_              _VBINNED_
+                                                               PROB_     _VKS_     KS_PROB_
+Obs    TARGET    TARGETLABEL    _VAUR_    _VGINI_     VKS     CUTOFF_     BIN_     CUTOFF_
+ 
+ 1     Class                     0.681     0.362     0.387     0.201     0.381      0.281
+ 
+ 
+ 
+ 
+ 
+                                                               _TKS_              _TBINNED_
+                                                               PROB_     _TKS_     KS_PROB_
+Obs    TARGET    TARGETLABEL    _TAUR_    _TGINI_     TKS     CUTOFF_     BIN_     CUTOFF_
+ 
+ 1     Class                     0.599     0.198     0.232     0.201     0.222      0.241
+ 
+ 
+ 
+ 
+ 
+                                                                                     BINNED_KS_
+                                                            _KS_PROB_                   PROB_
+Obs    TARGET    TARGETLABEL    _AUR_    _GINI_      KS       CUTOFF     _KS_BIN_      CUTOFF
+ 
+ 1     Class                    0.661     0.323    0.356       0.27        0.356        0.274
+ 
+ 
+ 
+ 
+ 
+                                                               _VKS_              _VBINNED_
+                                                               PROB_     _VKS_     KS_PROB_
+Obs    TARGET    TARGETLABEL    _VAUR_    _VGINI_     VKS     CUTOFF_     BIN_     CUTOFF_
+ 
+ 1     Class                     0.732     0.465     0.412     0.275     0.406      0.353
+ 
+ 
+ 
+ 
+ 
+                                                               _TKS_              _TBINNED_
+                                                               PROB_     _TKS_     KS_PROB_
+Obs    TARGET    TARGETLABEL    _TAUR_    _TGINI_     TKS     CUTOFF_     BIN_     CUTOFF_
+ 
+ 1     Class                     0.636     0.272     0.299     0.267     0.294      0.268
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fit Statistics
+Model Selection based on Valid: Misclassification Rate (_VMISC_)
+ 
+                                                              Train:                          Valid:
+                                              Valid:         Average          Train:         Average
+Selected     Model         Model        Misclassification    Squared    Misclassification    Squared
+ Model       Node       Description            Rate           Error            Rate           Error
+ 
+   Y        MdlImp2    Regression            0.29412         0.19281         0.32743         0.18487
+            MdlImp     Decision Tree         0.31765         0.20791         0.29204         0.18761
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fit Statistics Table
+Target: Class
+ 
+Data Role=Train
+ 
+Statistics                                                        MdlImp2     MdlImp
+ 
+Train: Bin-Based Two-Way Kolmogorov-Smirnov Probability Cutoff      0.274      0.281
+Train: Kolmogorov-Smirnov Statistic                                 0.356      0.245
+Train: Average Squared Error                                        0.193      0.208
+Train: Roc Index                                                    0.661      0.621
+Train: Cumulative Percent Captured Response                        12.121     18.182
+Train: Percent Captured Response                                    9.091      9.091
+Selection Criterion: Valid: Misclassification Rate                  0.294      0.318
+Train: Frequency of Classified Cases                              113.000    113.000
+Train: Divisor for ASE                                            226.000    226.000
+Train: Gain                                                        14.141     71.212
+Train: Gini Coefficient                                             0.323      0.242
+Train: Bin-Based Two-Way Kolmogorov-Smirnov Statistic               0.356      0.240
+Train: Kolmogorov-Smirnov Probability Cutoff                        0.270      0.201
+Train: Cumulative Lift                                              1.141      1.712
+Train: Lift                                                         1.712      1.712
+Train: Maximum Absolute Error                                       0.910      1.000
+Train: Misclassification Rate                                       0.327      0.292
+Train: Sum of Frequencies                                         113.000    113.000
+Train: Root Average Squared Error                                   0.439      0.456
+Train: Cumulative Percent Response                                 33.333     50.000
+Train: Percent Response                                            50.000     50.000
+Train: Sum of Squared Errors                                       43.576     46.989
+Train: Number of Wrong Classifications                             37.000     33.000
+ 
+ 
+Data Role=Valid
+ 
+Statistics                                                        MdlImp2     MdlImp
+ 
+Valid: Kolmogorov-Smirnov Statistic                                 0.412      0.387
+Valid: Average Squared Error                                        0.185      0.188
+Valid: Roc Index                                                    0.732      0.681
+Valid: Bin-Based Two-Way Kolmogorov-Smirnov Probability Cutoff      0.353      0.281
+Valid: Cumulative Percent Captured Response                        22.222     17.521
+Valid: Percent Captured Response                                    6.838      6.838
+Valid: Frequency of Classified Cases                               85.000     85.000
+Valid: Divisor for ASE                                            170.000    170.000
+Valid: Gain                                                       109.877     65.480
+Valid: Gini Coefficient                                             0.465      0.362
+Valid: Bin-Based Two-Way Kolmogorov-Smirnov Statistic               0.406      0.381
+Valid: Kolmogorov-Smirnov Probability Cutoff                        0.275      0.201
+Valid: Cumulative Lift                                              2.099      1.655
+Valid: Lift                                                         1.453      1.453
+Valid: Maximum Absolute Error                                       0.903      0.815
+Valid: Misclassification Rate                                       0.294      0.318
+Valid: Sum of Frequencies                                          85.000     85.000
+Valid: Root Average Squared Error                                   0.430      0.433
+Valid: Cumulative Percent Response                                 64.198     50.617
+Valid: Percent Response                                            44.444     44.444
+Valid: Sum of Squared Errors                                       31.428     31.894
+Valid: Number of Wrong Classifications                             25.000     27.000
+ 
+ 
+Data Role=Test
+ 
+Statistics                                                        MdlImp2     MdlImp
+ 
+Test:  Kolmogorov-Smirnov Statistic                                 0.299      0.232
+Test: Average Squared Error                                         0.206      0.212
+Test:  Roc Index                                                    0.636      0.599
+Test:  Bin-Based Two-Way Kolmogorov-Smirnov Probability Cutoff      0.268      0.241
+Test: Cumulative Percent Captured Response                         10.577     18.269
+Test: Percent Captured Response                                     4.167      6.731
+Test: Frequency of Classified Cases                                88.000     88.000
+Test: Divisor for ASE                                             176.000    176.000
+Test: Gain                                                          3.419     78.632
+Test:  Gini Coefficient                                             0.272      0.198
+Test:  Bin-Based Two-Way Kolmogorov-Smirnov Statistic               0.294      0.222
+Test:  Kolmogorov-Smirnov Probability Cutoff                        0.267      0.201
+Test: Cumulative Lift                                               1.034      1.786
+Test: Lift                                                          0.917      1.481
+Test: Maximum Absolute Error                                        0.910      1.000
+Test: Misclassification Rate                                        0.352      0.307
+Test: Sum of Frequencies                                           88.000     88.000
+Test: Root Average Squared Error                                    0.454      0.460
+Test: Cumulative Percent Response                                  30.556     52.778
+Test: Percent Response                                             27.083     43.750
+Test: Sum of Squared Errors                                        36.236     37.230
+Test: Number of Wrong Classifications                              31.000     27.000
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Event Classification Table
+Model Selection based on Valid: Misclassification Rate (_VMISC_)
+ 
+ Model         Model        Data                  Target      False       True        False       True
+ Node       Description     Role        Target    Label     Negative    Negative    Positive    Positive
+ 
+MdlImp     Decision Tree    TRAIN       Class                  26          73           7           7
+MdlImp     Decision Tree    VALIDATE    Class                  19          51           8           7
+MdlImp2    Regression       TRAIN       Class                  27          70          10           6
+MdlImp2    Regression       VALIDATE    Class                  16          50           9          10
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
